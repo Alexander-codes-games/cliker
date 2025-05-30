@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+}
+
+.game-container {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 10px #00000050;
+  max-width: 400px;
+  margin: auto;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  margin-top: 20px;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.shop {
+  margin-top: 30px;
+}
